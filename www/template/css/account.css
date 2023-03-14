@@ -1,0 +1,33 @@
+.account{
+	width: 100%;
+	display: flex;
+}
+.edit{
+	display: none;
+}
+.profil,.person{
+	display: flex;
+	flex-direction: column;
+}
+.signup-form{
+	border:2px dashed black;
+	margin: 20px;
+	padding: 20px;
+}
+input{
+	margin: 10px;
+}
+.log-reg{
+	font-size: 1vmax;
+	display: flex;
+	justify-content: center;
+}
+.account{
+	font-size: 1.5vmax;
+	display: flex;
+	justify-content: space-between;
+}
+
+.order{
+	border-bottom: 1px solid #000;
+}

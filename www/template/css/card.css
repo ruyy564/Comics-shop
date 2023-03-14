@@ -1,0 +1,90 @@
+.image-title img{
+	max-width: 100px;
+	max-height: 200px;
+}
+.card-good{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.5vmax;
+}
+.name-good-in-card{
+	width: 20vmax;
+	font-size: 1.5vmax;
+}
+.card-goods{
+	max-width: 70%;
+}
+.card-good{
+	width: 100%;
+}
+.image-title{
+	display: flex;
+	justify-content: space-between;
+}
+.calc-sum{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 9vmax;
+	align-items:  flex-start;
+}
+.btn-card button{
+	background:#efefef;
+	border: none;
+	width: 2vmax;
+	height: 2vmax;
+}
+button .icon{
+	margin: 0;
+	color: #999;
+}
+button .icon:hover{
+	color: #000;
+}
+.section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-size: 1.5vmax;
+}
+.pay{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size:1.3vmax;
+	width: 10vmax;
+}
+.pay button{
+		background-color: #efefef;
+		color: #000;
+		border: 2px solid #000;
+		border-radius: 5px;
+		padding: 10px;
+}
+.good-button{
+	color: #a09f9f;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+}
+.good-button:hover{
+	color: #a0a0a0;
+}
+.form-goods{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+.btn-card{
+	display: flex;
+	width: 9vmax;
+	justify-content: space-between;
+}
